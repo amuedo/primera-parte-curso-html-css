@@ -1,0 +1,32 @@
+body {
+    background-color: wheat;
+    color: darkslategrey
+}
+
+.card {
+    background-color: bisque;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto auto auto;
+    margin-top: 70px;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background: sienna;
+    color: white;
+    text-align: justify;
+}

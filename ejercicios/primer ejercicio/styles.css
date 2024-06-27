@@ -1,0 +1,132 @@
+.box {
+    width: 400px;
+    background: beige linear-gradient(#aba36d 30%,#7a501d);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    border-top: 3px solid #7a501d;
+    box-shadow: 0 0 50px 10px #0007;
+    color: beige;
+    transition: 0.3s all ease;
+}
+
+.profesioncafe {
+    color: #7a501d;
+}
+
+.box-verde {
+    width: 400px;
+    background: rgb(220, 245, 224) linear-gradient(#71a16d 30%,#0a3d17);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    border-top: 3px solid #0a3d17;
+    box-shadow: 0 0 50px 10px #0007;
+    color: rgb(205, 242, 205);
+    transition: 0.3s all ease;
+}
+
+.profesionverde {
+    color: #0a3d17;
+}
+
+.box-azul {
+    width: 400px;
+    background: beige linear-gradient(#5e67a8 30%,#1d2e7a);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    border-top: 3px solid #1d2e7a;
+    box-shadow: 0 0 50px 10px #0007;
+    color: lightblue;
+    transition: 0.3s all ease;
+}
+
+.profesionazul {
+    color: #121f58;
+}
+
+.contactos {
+    width: 500px;
+    background-color: #513b20;
+    margin: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.35s;
+    margin: 5px;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #2b2b2b;
+}
+
+ul {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#e4e4e4
+}
+
+li {
+    text-align: justify;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    margin: 20px 20px;
+    color: whitesmoke
+}
+
+.box:hover {
+    filter: brightness(110%);
+    box-shadow:0 0 100px 0#000000;
+}
+
+.box-verde:hover {
+    filter: brightness(110%);
+    box-shadow:0 0 100px 0#000000;
+}
+
+.box-azul:hover {
+    filter: brightness(110%);
+    box-shadow:0 0 100px 0#000000;
+}
+
+.icon:hover {
+    filter: brightness(140%);
+    cursor: pointer;
+    box-shadow: 0 0 75px 0 #FFF7C7;
+}
